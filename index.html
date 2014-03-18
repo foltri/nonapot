@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <script src="sound.js"></script>
+    <title>N&#337;napot boldogat!</title>
+</head>
+
+<body>
+    <div>
+        <div id="one" onmouseover="over(1)">
+            <video width="320" height="240" onmouseover="overV(this,1)" onended="videoEnded(1)">
+                <source src="videos/one.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1 id="boldog" class="hint">Vidd az egeret a 3 k&#233;pre!</h1>
+    </div>
+    
+    <div>
+        <div id="two" onmouseover="over(2)">
+            <video width="320" height="240" onmouseover="overV(this,2)" onended="videoEnded(2)" >
+                <source src="videos/two.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1 id="no" class="greeting">N&#337;</h1>
+    </div>
+    
+    <div>
+        <div id="three" onmouseover="over(3)">
+            <video width="320" height="240" onmouseover="overV(this,3)" onended="videoEnded(3)">
+                <source src="videos/three.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1 id='napot' class="greeting">Napot!</h1>
+    </div>
+    
+</body>
+
+</html>

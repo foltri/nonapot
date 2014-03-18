@@ -1,0 +1,59 @@
+body {
+    background:url('images/me.jpg');
+}
+body>div {
+    display: block;
+    height: 240px;
+}
+
+div div {
+    height: 240px;
+	width: 320px;
+    padding: 0;
+    display: inline-block;   
+    overflow:hidden;
+    border-left:3px solid yellow;
+    border-right:3px solid yellow;
+    border-radius: 300px;
+}
+
+div div:hover {
+}
+
+video {
+    padding: 0;
+    border-radius: 300px;
+    -moz-border-radius:300px; /* Firefox 3.6 and earlier */
+    opacity: 0.97;
+}
+
+.hint {
+    display: inline-block;
+    font-size: 50px;
+    font-family: century gothic, monospace;
+    position: relative;
+    top:-80px;
+    left:100px;
+    visibility: visible;
+    background-color: yellow;
+    border-radius: 100px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    opacity:0.7;
+}
+
+.greeting {
+    display: inline-block;
+    font-size: 140px;
+    font-family: century gothic, monospace;
+    position: relative;
+    top:-80px;
+    left:100px;
+    visibility: hidden;
+    background-color: #FF3366;
+    border-radius: 100px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    opacity:0.7;
+}
+
